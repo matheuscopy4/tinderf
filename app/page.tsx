@@ -2295,17 +2295,15 @@ export default function SigiloX() {
                     </div>
                     {/* Direct Checkout Button - Fixed Text Overflow */}{" "}
                     <Button
-                      onClick={() =>
-                        (window.location.href = "https://pay.mundpay.com/0198e6ec-8f9e-73a4-bf58-3fd0b289d11b?ref=")
-                      }
-                      className="w-full bg-gradient-to-r from-[#FF0066] to-[#FF3333] hover:from-[#FF0066] hover:to-[#FF3333] text-white font-bold py-4 sm:py-6 text-sm sm:text-base md:text-lg rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 mb-4 sm:mb-6 overflow-hidden"
-                    >
-                      {" "}
-                      <span className="block text-center leading-tight px-2">
-                        {" "}
-                        🔓 ODBLOKUJ MÓJ RAPORT - JESTEM GOTOWY NA PRAWDĘ{" "}
-                      </span>{" "}
-                    </Button>
+  onClick={() =>
+    window.open("https://pay.mundpay.com/0198e6ec-8f9e-73a4-bf58-3fd0b289d11b?ref=", "_blank")
+  }
+  className="w-full bg-gradient-to-r from-[#FF0066] to-[#FF3333] hover:from-[#FF0066] hover:to-[#FF3333] text-white font-bold py-4 sm:py-6 text-sm sm:text-base md:text-lg rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 mb-4 sm:mb-6 overflow-hidden"
+>
+  <span className="block text-center leading-tight px-2">
+    🔓 ODBLOKUJ MÓJ RAPORT - JESTEM GOTOWY NA PRAWDĘ
+  </span>
+</Button>
                     {/* Final Reassurance */}
                     <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 sm:p-6 mb-4 sm:mb-6">
                       <p className="text-sm sm:text-base text-blue-700 font-medium leading-relaxed">
