@@ -2296,7 +2296,7 @@ export default function SigiloX() {
                     {/* Direct Checkout Button - Fixed Text Overflow */}{" "}
                     <Button
   onClick={() =>
-    window.open("https://pay.mundpay.com/0198e6ec-8f9e-73a4-bf58-3fd0b289d11b?ref=", "_blank")
+    window.open("https://pay.hotmart.com/W101623233E?checkoutMode=10", "_blank")
   }
   className="w-full bg-gradient-to-r from-[#FF0066] to-[#FF3333] hover:from-[#FF0066] hover:to-[#FF3333] text-white font-bold py-4 sm:py-6 text-sm sm:text-base md:text-lg rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 mb-4 sm:mb-6 overflow-hidden"
 >
